@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+	text-decoration: none;
+}
+
+.order-box{
+	color: #1add23;
+	position: fixed;
+    top: 40%;
+    right: 0%;
+    border: 0.5px solid #f09595;
+    background: rgba(255, 255, 255, 0.185);
+	width: 170px;
+    padding: 5px;
+    margin: 5px;
+}
+.order-box input{
+	margin: 5px;
+	padding: 10px;
+	border: 0px;
+	background-color: #e63232;
+}
+
+.order-box input:hover{
+	color: white;
+	background-color: #3235e6;
+}
+
+/* Market section */
+.market-content{
+	margin: 5%;
+	margin-bottom: 0%!important;
+}
+.col-md-6 h1, .col-md-6 h2{
+	margin: 50px!important;
+}
+.col-md-6 h2{
+	margin: 100px!important;
+}
+.col-md-6 img{
+	margin-left: 40px;
+	width: 60%;
+	height: 60%;
+}
+/*--------Price Plan------*/
+#cloth{
+	padding: 40px 0;
+	background: #efefef;
+}
+#cloth h2{
+    text-align: center;
+    color: #343434;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	text-transform: uppercase;
+}
+.row{
+    margin: 5%; 
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 700){
+    nav ul li a{
+        color: rgb(255, 0, 0);
+        font-size: 20px;
+    }
+    .row{
+        display: block;
+    }
+}
+
+.single-price {
+	margin: 10px 10px;
+	display: inline;
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	transition: .5s;
+}
+.single-price:hover{
+	box-shadow: 0 2px 20px #333;
+}
+.price-head{
+	background-color: #ee1e1e;
+	display: inline;
+	float: left;
+	padding: 10px 5px;
+	text-align: center;
+	width: 100%;
+}
+.price-head-kids{
+	background-color: #fffb02;
+	display: inline;
+	float: left;
+	padding: 10px 5px;
+	text-align: center;
+	width: 100%;
+}
+.price-head-women{
+	background-color: #ff02ff;
+	display: inline;
+	float: left;
+	padding: 10px 5px;
+	text-align: center;
+	width: 100%;
+}
+.price-head h3{
+	color: rgb(80, 71, 71);
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	text-transform: uppercase;
+}
+.price-head p{
+	font-size: 25px;
+	color: #ccc;
+	font-weight: bold;
+	line-height: 30px;
+}
+.price-content{
+	display: inline;
+	float: left;
+	width: 100%;
+	padding: 0 15px;
+}
+.price-content .image img{
+    margin: 3%;
+    width: 250px;
+    height: 250px;
+}
+.price-button{
+	display: inline;
+	float: left;
+	padding: 15px 15px 30px;
+	text-align: center;
+	width: 100%;
+}
+
+.buy-btn{
+	color: #000;
+	text-decoration: none!important;
+	background-color: #2196f3;
+	border-radius: 	3px;
+	display: inline-block; 
+	font-size: 18px;
+	padding: 15px 50px;
+	transition: .5s;
+}
+.buy-btn:hover{
+	color: #fff;
+	border-color: 1px solid #fff;
+	background-color: #3f51b5;
+}

@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: rgb(59, 59, 59);
+}
+
+nav{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/field.jpg); 
+	background-size: cover;
+	background-position: center;
+    background-attachment: fixed;
+	height: 120px;
+	width: 100%;
+}
+
+label.logo{
+    margin: 8px;
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	font-weight: bold;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li{
+	display: inline-block;
+	padding-left: 30px;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+nav ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #5e2dcf;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+nav ul li a:hover, nav ul li a.active{
+	color: #ee1e1e;
+}
+.header a img{
+	margin: 10px 20px;
+    width: 80px;
+    height: 8hv;
+}
+
+@media	(max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+
+	nav ul li a{
+	font-size: 16px;	
+	}
+}
+/* head section */
+#head {
+    margin: 20px;
+    padding-bottom: 5%;
+    width: 90%;
+    position: relative;
+}
+
+.text-box {
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/field.jpg); 
+	background-size: cover;
+	background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80%;
+    padding: 10%;
+    text-align: center;
+}
+.text-box P{color: #fff;}
+
+.bottom h1{
+    align-items: center;
+    padding: 3%;
+}
+/* BLog */
+#blog{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#blog .btn{
+	margin-top: 25;
+	margin-bottom: 35px; 
+}
+
+.blog-content{
+	padding: 20px;
+	text-align: justify;
+}
+.col-md-6 {
+	margin-bottom: 3%!important;
+}

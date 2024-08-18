@@ -1,0 +1,129 @@
+*{
+    padding: 0; margin: 0;color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{ background-color: #ddd;
+}
+
+.content {
+    margin: 0 10%;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    padding: 30px 32px;
+    width: 80%;
+    background: rgba(252, 252, 252, 1);
+    border: 1px solid #fff;
+    box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
+    }
+
+.content h1{
+    padding: 20px;
+    color: #1add32;
+}
+.content h2{
+    word-spacing: 4px;
+    padding: 10px 10px 10px 40px;
+    text-align: left;
+}
+
+.content h3{
+    padding: 6px;
+}
+.content img {
+    width: 200px;
+}
+
+.btn, form .content-table td.input[type='file']{
+    font-weight: 400;
+    width: 150px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid rgb(235, 10, 10);
+    margin: 10px;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    border: 1px solid #ff2020;
+    background-color: #ff2020;
+    transition: 1s;
+}
+
+small{
+    margin: 5px;
+    color: red;
+    box-shadow: 0 0 6px 0 rgba(240, 25, 25, 0.329);
+    visibility: hidden;
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 90px;
+}
+form label{
+    font-size: 18px;
+    font-weight: bold;
+}
+form input, form textarea{
+    font-size: 1.2em;
+    width: 400px!important;
+    margin: 10px;
+    padding: 10px;
+}
+form input.btn{
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+}
+
+  .content-table {
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 1.2em;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: #ee2c2c;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #ee2c2c;
+  }
+  
+  .content-table td input{
+    font-size: 0.9em!important;
+    width: 300px!important;
+    height: 50px!important;
+  }
+  .content-table td small{
+    visibility: visible!important;
+  }
+  

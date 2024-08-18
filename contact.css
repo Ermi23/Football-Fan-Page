@@ -1,0 +1,153 @@
+body{
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/banner.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
+
+nav{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/field.jpg); 
+	background-size: cover;
+	background-position: center;
+    background-attachment: fixed;
+	height: 120px;
+	width: 100%;
+}
+
+label.logo{
+    margin: 8px;
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	font-weight: bold;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li{
+	display: inline-block;
+	padding-left: 30px;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+nav ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #5e2dcf;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+nav ul li a:hover, nav ul li a.active{
+	color: #ee1e1e;
+}
+.header a img{
+	margin: 10px 20px;
+    width: 80px;
+    height: 8hv;
+}
+
+@media	(max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+
+	nav ul li a{
+	font-size: 16px;	
+	}
+}
+
+
+#contact{
+	background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2)) ;
+	width: 90%;
+	margin: 40px auto;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 30px;
+	color: #433;
+}
+
+.form-control{
+	border-radius: 0 !important;
+	border: none !important;
+}
+
+::placeholder{
+	color: rgb(243, 9, 9);
+}
+
+.contact-group{
+	margin: 15px; 
+}
+
+.follow{
+	background: #fff;
+	padding: 10px;
+	margin: 40px;
+}
+.contact-info .fa{
+	margin: 10px;
+	color: #fd2727 !important;
+	font-weight: bold;
+}
+.contact-info a {
+    text-decoration: none;
+}
+
+.contact-form small{
+	visibility: hidden;    
+    background-color: #ff1919;
+    margin: 15px;
+    font-size: 14px;
+    color: #222;
+}
+
+.contact-form input{
+	margin: 20px 0;
+} 
+
+.contact-form label{
+    padding: 10px;
+    font-size: 20px;
+	font-weight: 500;
+}
+.contact-info a .fa{
+	margin: 10px;
+	color: #007bff;
+	font-weight: bold;
+}
+.contact-group.btn{
+	text-align: center;
+}
+.send-btn{
+    font-weight: 400;
+    width: 250px;
+    color: #fff;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 12px 34px;
+    background: #ff2020;
+    cursor: pointer;
+}
+.send-btn:hover{
+    color: rgb(255, 255, 255);
+    border: 1px solid #ff2020;
+    background-color: #a10000;
+    transition: 1s;
+}
